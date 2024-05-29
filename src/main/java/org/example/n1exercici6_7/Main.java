@@ -13,6 +13,7 @@ public class Main {
     }
 
     public static void orderList(){
+        System.out.println("Ejercicio 6: ordenar strings de mas corto a mas largo");
         List<Object> objectList = Arrays.asList(23, 34, "Inga", "Demetrashvili");
         objectList
                 .stream()
@@ -23,6 +24,7 @@ public class Main {
     }
 
     public static void orderListReversed(){
+        System.out.println("Ejercicio 7: ordenar strings de mas largo a mas corto");
         List<Object> objectList = Arrays.asList(23, 34, "Inga", "Demetrashvili");
         objectList
                 .stream()

@@ -13,6 +13,7 @@ public class Main {
     }
 
     public static void printMonth(){
+        System.out.println("Ejercicio 3: imprimir meses mediante lambda");
         String[] months = new String[]{
                 "January",
                 "February",
@@ -34,6 +35,7 @@ public class Main {
     }
 
     public static void printMonthWithReference(){
+        System.out.println("Ejercicio 4: imrimir meses mediante lambda method reference");
         String[] months = new String[]{
                 "January",
                 "February",

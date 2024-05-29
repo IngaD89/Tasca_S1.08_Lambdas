@@ -12,7 +12,8 @@ public class Main {
     }
 
     private static List<String> filterByLetter() {
-        String[] strings = {"uno", "dos", "tres", "cuatro"};
+        System.out.println("Ejercicio 1: imprimir todas las cadenas de texto que contienen letra 'o' ");
+        String[] strings = {"catorce", "dos", "tres", "cuatro"};
         List<String> stringList = new ArrayList<>(Arrays.asList(strings));
 
         return stringList
@@ -22,6 +23,8 @@ public class Main {
     }
 
     private static List<String> filterByLetterAndLength() {
+        System.out.println("Ejercicio 2: Imprimir palabras que contienen letra 'o' " +
+                "y ademas tienen mas de 5 letras");
         String[] strings = {"catorce", "dos", "tres", "cuatro"};
         List<String> stringList = new ArrayList<>(Arrays.asList(strings));
 
